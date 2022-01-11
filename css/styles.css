@@ -1,0 +1,135 @@
+/*-----------------------------------Tag Selectors------------------------------------------*/
+body {
+  font-family: sans-serif;
+  margin: 0;
+  text-align: center;
+}
+h1 {
+  font-family: 'Sacramento', sans-serif;
+  font-size: 5rem;
+  margin: 0;
+}
+h2 {
+  color: #66BFBF;
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+h3, a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+  color: #40514E;
+  line-height: 2em;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 8px;
+  width: 6%;
+}
+
+/*---------------------------------------Class Selectors------------------------------------*/
+.intro {
+  background-color: #E4F6F6;
+  font-family: Imperial Script;
+  padding-top: 310px;
+  position: relative;
+
+}
+.intro-head-para {
+  color: #66BFBF;
+  font-family: verdana, sans-serif;
+  position: absolute;
+  top: 150px;
+  left: 400px;
+}
+.top-cloud {
+  position: absolute;
+  top: 80px;
+  right: 270px;
+}
+.bottom-cloud {
+  position: absolute;
+  top: 370px;
+  left: 200px;
+}
+.middle-container {
+  padding: 80px;
+  
+}
+.profile {
+  padding-bottom: 50px;
+}
+.profileimage {
+  height: 200px;
+  width: 200px;
+}
+.skills {
+  padding: 50px 0;
+}
+.skill-row {
+  line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+.webdev-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.prog-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-image {
+  width: 25%;
+}
+.contact-me {
+  padding-top: 50px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 10px 0;
+}
+.copyright {
+  padding: 20px 0;
+  font-size: 0.75rem;
+  color: #EAF6F6;
+}
+/*----------------------------------------ID Selectors-----------------------------------------*/
